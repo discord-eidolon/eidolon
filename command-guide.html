@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" class="rounded-corners theme-clean no-tint sidebar-default sidebar-list-default links-default depth-subtle __variable_c353a6 __variable_c1795b __variable_5e38af dark">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>My Discord Bot - Command Guide</title>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/89f26f48fc5b28b2.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/a40b68df878fd408.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/e4670420fc569cb1.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/a0a242a9b1e69e35.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/56fe87b9fec78eb2.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/53ba230a3ad5cee2.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/95b358fb5c9305a3.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/d15bfa57351fefdc.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/714c1c5baa1c832b.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/71c7bcce0a5ef43b.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/91903513867fb52d.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/c97b65bf73ebc61d.css" data-precedence="next"/>
+    <link rel="stylesheet" href="https://static-2v.gitbook.com/_next/static/css/4af9aafd612346fe.css" data-precedence="next"/>
+
+    <style>
+        :root {
+            --bgColor-default: #0d1117;
+            --primary-1: 255 255 255; --contrast-primary-1: 29 29 29;
+            --primary-2: 247 250 255; --contrast-primary-2: 29 29 29;
+            --primary-3: 241 248 255; --contrast-primary-3: 29 29 29;
+            --primary-4: 233 243 255; --contrast-primary-4: 29 29 29;
+            --primary-5: 224 238 255; --contrast-primary-5: 29 29 29;
+            --primary-6: 213 230 255; --contrast-primary-6: 29 29 29;
+            --primary-7: 198 218 253; --contrast-primary-7: 29 29 29;
+            --primary-8: 182 205 246; --contrast-primary-8: 29 29 29;
+            --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
+            --primary-10: 49 86 130; --contrast-primary-10: 255 255 255;
+            --primary-11: 87 110 152; --contrast-primary-11: 255 255 255;
+            --primary-12: 24 29 38; --contrast-primary-12: 255 255 255;
+            --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
+            --tint-1: 255 255 255; --contrast-tint-1: 29 29 29;
+            --tint-2: 249 250 251; --contrast-tint-2: 29 29 29;
+            --tint-3: 246 247 250; --contrast-tint-3: 29 29 29;
+            --tint-4: 240 242 246; --contrast-tint-4: 29 29 29;
+            --tint-5: 234 237 242; --contrast-tint-5: 29 29 29;
+            --tint-6: 226 230 236; --contrast-tint-6: 29 29 29;
+            --tint-7: 213 217 224; --contrast-tint-7: 29 29 29;
+            --tint-8: 200 205 213; --contrast-tint-8: 29 29 29;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255;
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255;
+            --tint-11: 106 110 119; --contrast-tint-11: 255 255 255;
+            --tint-12: 28 29 31; --contrast-tint-12: 255 255 255;
+            --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
+            --neutral-1: 255 255 255; --contrast-neutral-1: 29 29 29;
+            --neutral-2: 250 250 250; --contrast-neutral-2: 29 29 29;
+            --neutral-3: 247 247 247; --contrast-neutral-3: 29 29 29;
+            --neutral-4: 242 242 242; --contrast-neutral-4: 29 29 29;
+            --neutral-5: 237 237 237; --contrast-neutral-5: 29 29 29;
+            --neutral-6: 229 229 229; --contrast-neutral-6: 29 29 29;
+            --neutral-7: 217 217 217; --contrast-neutral-7: 29 29 29;
+            --neutral-8: 204 204 204; --contrast-neutral-8: 29 29 29;
+            --neutral-9: 120 120 120; --contrast-neutral-9: 255 255 255;
+            --neutral-10: 121 121 121; --contrast-neutral-10: 255 255 255;
+            --neutral-11: 110 110 110; --contrast-neutral-11: 255 255 255;
+            --neutral-12: 29 29 29; --contrast-neutral-12: 255 255 255;
+            --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
+
+            --header-background: 49 70 120;
+            --header-link: 255 255 255;
+
+            --info-1: 255 255 255; --contrast-info-1: 29 29 29;
+            --info-2: 250 250 250; --contrast-info-2: 29 29 29;
+            --info-3: 247 247 247; --contrast-info-3: 29 29 29;
+            --info-4: 242 242 242; --contrast-info-4: 29 29 29;
+            --info-5: 237 237 237; --contrast-info-5: 29 29 29;
+            --info-6: 229 229 229; --contrast-info-6: 29 29 29;
+            --info-7: 217 217 217; --contrast-info-7: 29 29 29;
+            --info-8: 204 204 204; --contrast-info-8: 29 29 29;
+            --info-9: 120 120 120; --contrast-info-9: 255 255 255;
+            --info-10: 121 121 121; --contrast-info-10: 255 255 255;
+            --info-11: 110 110 110; --contrast-info-11: 255 255 255;
+            --info-12: 29 29 29; --contrast-info-12: 255 255 255;
+            --info-original: 120 120 120; --contrast-info-original: 255 255 255;
+            --warning-1: 255 255 255; --contrast-warning-1: 29 29 29;
+            --warning-2: 254 249 244; --contrast-warning-2: 29 29 29;
+            --warning-3: 255 245 236; --contrast-warning-3: 29 29 29;
+            --warning-4: 255 239 225; --contrast-warning-4: 29 29 29;
+            --warning-5: 254 233 214; --contrast-warning-5: 29 29 29;
+            --warning-6: 250 224 200; --contrast-warning-6: 29 29 29;
+            --warning-7: 242 211 182; --contrast-warning-7: 29 29 29;
+            --warning-8: 233 197 164; --contrast-warning-8: 29 29 29;
+            --warning-9: 254 154 0; --contrast-warning-9: 29 29 29;
+            --warning-10: 187 92 0; --contrast-warning-10: 255 255 255;
+            --warning-11: 138 102 66; --contrast-warning-11: 255 255 255;
+            --warning-12: 35 28 21; --contrast-warning-12: 255 255 255;
+            --warning-original: 254 154 0; --contrast-warning-original: 29 29 29;
+            --danger-1: 255 255 255; --contrast-danger-1: 29 29 29;
+            --danger-2: 255 247 246; --contrast-danger-2: 29 29 29;
+            --danger-3: 255 242 239; --contrast-danger-3: 29 29 29;
+            --danger-4: 255 234 230; --contrast-danger-4: 29 29 29;
+            --danger-5: 255 226 221; --contrast-danger-5: 29 29 29;
+            --danger-6: 255 215 210; --contrast-danger-6: 29 29 29;
+            --danger-7: 255 200 193; --contrast-danger-7: 29 29 29;
+            --danger-8: 254 184 177; --contrast-danger-8: 29 29 29;
+            --danger-9: 251 44 54; --contrast-danger-9: 255 255 255;
+            --danger-10: 228 0 33; --contrast-danger-10: 255 255 255;
+            --danger-11: 158 87 81; --contrast-danger-11: 255 255 255;
+            --danger-12: 255 249 247; --contrast-danger-12: 29 29 29;
+            --danger-original: 251 44 54; --contrast-danger-original: 255 255 255;
+            --success-1: 255 255 255; --contrast-success-1: 29 29 29;
+            --success-2: 245 252 246; --contrast-success-2: 29 29 29;
+            --success-3: 238 252 240; --contrast-success-3: 29 29 29;
+            --success-4: 229 249 231; --contrast-success-4: 29 29 29;
+            --success-5: 219 246 222; --contrast-success-5: 29 29 29;
+            --success-6: 207 240 210; --contrast-success-6: 29 29 29;
+            --success-7: 190 229 194; --contrast-success-7: 29 29 29;
+            --success-8: 172 218 177; --contrast-success-8: 29 29 29;
+            --success-9: 0 201 80; --contrast-success-9: 29 29 29;
+            --success-10: 0 152 23; --contrast-success-10: 255 255 255;
+            --success-11: 74 124 82; --contrast-success-11: 255 255 255;
+            --success-12: 246 255 247; --contrast-success-12: 29 29 29;
+            --success-original: 0 201 80; --contrast-success-original: 29 29 29;
+        }
+
+        .dark {
+            --primary-1: 29 29 29; --contrast-primary-1: 255 255 255;
+            --primary-2: 32 35 39; --contrast-primary-2: 255 255 255;
+            --primary-3: 39 44 53; --contrast-primary-3: 255 255 255;
+            --primary-4: 40 48 62; --contrast-primary-4: 255 255 255;
+            --primary-5: 43 54 72; --contrast-primary-5: 255 255 255;
+            --primary-6: 45 58 81; --contrast-primary-6: 255 255 255;
+            --primary-7: 52 68 96; --contrast-primary-7: 255 255 255;
+            --primary-8: 59 78 112; --contrast-primary-8: 255 255 255;
+            --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
+            --primary-10: 49 86 130; /* Changed for link highlight */ --contrast-primary-10: 255 255 255;
+            --primary-11: 167 193 239; --contrast-primary-11: 29 29 29;
+            --primary-12: 249 255 255; --contrast-primary-12: 29 29 29;
+            --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
+            --tint-1: 29 29 29; --contrast-tint-1: 255 255 255;
+            --tint-2: 34 34 35; --contrast-tint-2: 255 255 255;
+            --tint-3: 43 44 45; --contrast-tint-3: 255 255 255;
+            --tint-4: 47 48 49; --contrast-tint-4: 255 255 255;
+            --tint-5: 52 54 55; --contrast-tint-5: 255 255 55; /* Typo here: 55 vs 255 */
+            --tint-6: 56 58 60; --contrast-tint-6: 255 255 255;
+            --tint-7: 66 68 70; --contrast-tint-7: 255 255 255;
+            --tint-8: 76 78 81; --contrast-tint-8: 255 255 255;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255; /* Changed for link highlight */
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255; /* Changed for link highlight hover */
+            --tint-11: 190 192 197; --contrast-tint-11: 29 29 29;
+            --tint-12: 254 255 255; --contrast-tint-12: 29 29 29;
+            --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
+            --neutral-1: 29 29 29; --contrast-neutral-1: 255 255 255;
+            --neutral-2: 34 34 34; --contrast-neutral-2: 255 255 255;
+            --neutral-3: 44 44 44; --contrast-neutral-3: 255 255 255;
+            --neutral-4: 48 48 48; --contrast-neutral-4: 255 255 255;
+            --neutral-5: 53 53 53; --contrast-neutral-5: 255 255 255;
+            --neutral-6: 57 57 57; --contrast-neutral-6: 255 255 255;
+            --neutral-7: 67 67 67; --contrast-neutral-7: 255 255 255;
+            --neutral-8: 78 78 78; --contrast-neutral-8: 255 255 255;
+            --neutral-9: 120 120 120; --contrast-neutral-9: 255 255 255;
+            --neutral-10: 144 144 144; --contrast-neutral-10: 255 255 255;
+            --neutral-11: 192 192 192; --contrast-neutral-11: 29 29 29;
+            --neutral-12: 255 255 255; --contrast-neutral-12: 29 29 29;
+            --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
+
+            --header-background: 49 70 120; /* This variable is still here but the inline style will override */
+            --header-link: 255 255 255;
+
+            --info-1: 29 29 29; --contrast-info-1: 255 255 255;
+            --info-2: 34 34 34; --contrast-info-2: 255 255 255;
+            --info-3: 44 44 44; --contrast-info-3: 255 255 255;
+            --info-4: 48 48 48; --contrast-info-4: 255 255 255;
+            --info-5: 53 53 53; --contrast-info-5: 255 255 255;
+            --info-6: 57 57 57; --contrast-info-6: 255 255 255;
+            --info-7: 67 67 67; --contrast-info-7: 255 255 255;
+            --info-8: 78 78 78; --contrast-info-8: 255 255 255;
+            --info-9: 120 120 120; --contrast-info-9: 255 255 255;
+            --info-10: 144 144 144; --contrast-info-10: 255 255 255;
+            --info-11: 192 192 192; --contrast-info-11: 29 29 29;
+            --info-12: 255 255 255; --contrast-info-12: 29 29 29;
+            --info-original: 120 120 120; --contrast-info-original: 255 255 255;
+            --warning-1: 29 29 29; --contrast-warning-1: 255 255 255;
+            --warning-2: 38 34 30; --contrast-warning-2: 255 255 255;
+            --warning-3: 50 42 35; --contrast-warning-3: 255 255 255;
+            --warning-4: 57 45 34; --contrast-warning-4: 255 255 255;
+            --warning-5: 66 50 34; --contrast-warning-5: 255 255 255;
+            --warning-6: 73 53 33; --contrast-warning-6: 255 255 255;
+            --warning-7: 87 62 37; --contrast-warning-7: 255 255 255;
+            --warning-8: 101 71 41; --contrast-warning-8: 255 255 255;
+            --warning-9: 254 154 0; --contrast-warning-9: 29 29 29;
+            --warning-10: 213 116 0; --contrast-warning-10: 255 255 255;
+            --warning-11: 224 184 145; --contrast-warning-11: 29 29 29;
+            --warning-12: 255 253 243; --contrast-warning-12: 29 29 29;
+            --warning-original: 254 154 0; --contrast-warning-original: 29 29 29;
+            --danger-1: 29 29 29; --contrast-danger-1: 255 255 255;
+            --danger-2: 40 32 32; --contrast-danger-2: 255 255 255;
+            --danger-3: 55 39 38; --contrast-danger-3: 255 255 255;
+            --danger-4: 64 41 38; --contrast-danger-4: 255 255 255;
+            --danger-5: 75 44 41; --contrast-danger-5: 255 255 255;
+            --danger-6: 84 45 41; --contrast-danger-6: 255 255 255;
+            --danger-7: 100 51 48; --contrast-danger-7: 255 255 255;
+            --danger-8: 117 58 54; --contrast-danger-8: 255 255 255;
+            --danger-9: 251 44 54; --contrast-danger-9: 255 255 255;
+            --danger-10: 255 52 59; --contrast-danger-10: 255 255 255;
+            --danger-11: 248 168 161; --contrast-danger-11: 29 29 29;
+            --danger-12: 255 249 247; --contrast-danger-12: 29 29 29;
+            --danger-original: 251 44 54; --contrast-danger-original: 255 255 255;
+            --success-1: 29 29 29; --contrast-success-1: 255 255 255;
+            --success-2: 31 36 32; --contrast-success-2: 255 255 255;
+            --success-3: 37 47 38; --contrast-success-3: 255 255 255;
+            --success-4: 37 52 39; --contrast-success-4: 255 255 255;
+            --success-5: 38 60 41; --contrast-success-5: 255 255 255;
+            --success-6: 38 65 41; --contrast-success-6: 255 255 255;
+            --success-7: 42 77 48; --contrast-success-7: 255 255 255;
+            --success-8: 47 89 54; --contrast-success-8: 255 255 255;
+            --success-9: 0 201 80; --contrast-success-9: 29 29 29;
+            --success-10: 0 176 54; --contrast-success-10: 255 255 255;
+            --success-11: 155 208 161; --contrast-success-11: 29 29 29;
+            --success-12: 246 255 247; --contrast-success-12: 29 29 29;
+            --success-original: 0 201 80; --contrast-success-original: 29 29 29;
+        }
+
+        .dark {
+            --primary-1: 29 29 29; --contrast-primary-1: 255 255 255;
+            --primary-2: 32 35 39; --contrast-primary-2: 255 255 255;
+            --primary-3: 39 44 53; --contrast-primary-3: 255 255 255;
+            --primary-4: 40 48 62; --contrast-primary-4: 255 255 255;
+            --primary-5: 43 54 72; --contrast-primary-5: 255 255 255;
+            --primary-6: 45 58 81; --contrast-primary-6: 255 255 255;
+            --primary-7: 52 68 96; --contrast-primary-7: 255 255 255;
+            --primary-8: 59 78 112; --contrast-primary-8: 255 255 255;
+            --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
+            --primary-10: 49 86 130; /* Changed for link highlight */ --contrast-primary-10: 255 255 255;
+            --primary-11: 167 193 239; --contrast-primary-11: 29 29 29;
+            --primary-12: 249 255 255; --contrast-primary-12: 29 29 29;
+            --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
+            --tint-1: 29 29 29; --contrast-tint-1: 255 255 255;
+            --tint-2: 34 34 35; --contrast-tint-2: 255 255 255;
+            --tint-3: 43 44 45; --contrast-tint-3: 255 255 255;
+            --tint-4: 47 48 49; --contrast-tint-4: 255 255 255;
+            --tint-5: 52 54 55; --contrast-tint-5: 255 255 55; /* Typo here: 55 vs 255 */
+            --tint-6: 56 58 60; --contrast-tint-6: 255 255 255;
+            --tint-7: 66 68 70; --contrast-tint-7: 255 255 255;
+            --tint-8: 76 78 81; --contrast-tint-8: 255 255 255;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255; /* Changed for link highlight */
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255; /* Changed for link highlight hover */
+            --tint-11: 190 192 197; --contrast-tint-11: 29 29 29;
+            --tint-12: 254 255 255; --contrast-tint-12: 29 29 29;
+            --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
+            --neutral-1: 29 29 29; --contrast-neutral-1: 255 255 255;
+            --neutral-2: 34 34 34; --contrast-neutral-2: 255 255 255;
+            --neutral-3: 44 44 44; --contrast-neutral-3: 255 255 255;
+            --neutral-4: 48 48 48; --contrast-neutral-4: 255 255 255;
+            --neutral-5: 53 53 53; --contrast-neutral-5: 255 255 255;
+            --neutral-6: 57 57 57; --contrast-neutral-6: 255 255 255;
+            --neutral-7: 67 67 67; --contrast-neutral-7: 255 255 255;
+            --neutral-8: 78 78 78; --contrast-neutral-8: 255 255 255;
+            --neutral-9: 120 120 120; --contrast-neutral-9: 255 255 255;
+            --neutral-10: 144 144 144; --contrast-neutral-10: 255 255 255;
+            --neutral-11: 192 192 192; --contrast-neutral-11: 29 29 29;
+            --neutral-12: 255 255 255; --contrast-neutral-12: 29 29 29;
+            --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
+
+            --header-background: 49 70 120; /* This variable is still here but the inline style will override */
+            --header-link: 255 255 255;
+
+            --info-1: 29 29 29; --contrast-info-1: 255 255 255;
+            --info-2: 34 34 34; --contrast-info-2: 255 255 255;
+            --info-3: 44 44 44; --contrast-info-3: 255 255 255;
+            --info-4: 48 48 48; --contrast-info-4: 255 255 255;
+            --info-5: 53 53 53; --contrast-info-5: 255 255 255;
+            --info-6: 57 57 57; --contrast-info-6: 255 255 255;
+            --info-7: 67 67 67; --contrast-info-7: 255 255 255;
+            --info-8: 78 78 78; --contrast-info-8: 255 255 255;
+            --info-9: 120 120 120; --contrast-info-9: 255 255 255;
+            --info-10: 144 144 144; --contrast-info-10: 255 255 255;
+            --info-11: 192 192 192; --contrast-info-11: 29 29 29;
+            --info-12: 255 255 255; --contrast-info-12: 29 29 29;
+            --info-original: 120 120 120; --contrast-info-original: 255 255 255;
+            --warning-1: 29 29 29; --contrast-warning-1: 255 255 255;
+            --warning-2: 38 34 30; --contrast-warning-2: 255 255 255;
+            --warning-3: 50 42 35; --contrast-warning-3: 255 255 255;
+            --warning-4: 57 45 34; --contrast-warning-4: 255 255 255;
+            --warning-5: 66 50 34; --contrast-warning-5: 255 255 255;
+            --warning-6: 73 53 33; --contrast-warning-6: 255 255 255;
+            --warning-7: 87 62 37; --contrast-warning-7: 255 255 255;
+            --warning-8: 101 71 41; --contrast-warning-8: 255 255 255;
+            --warning-9: 254 154 0; --contrast-warning-9: 29 29 29;
+            --warning-10: 213 116 0; --contrast-warning-10: 255 255 255;
+            --warning-11: 224 184 145; --contrast-warning-11: 29 29 29;
+            --warning-12: 255 253 243; --contrast-warning-12: 29 29 29;
+            --warning-original: 254 154 0; --contrast-warning-original: 29 29 29;
+            --danger-1: 29 29 29; --contrast-danger-1: 255 255 255;
+            --danger-2: 40 32 32; --contrast-danger-2: 255 255 255;
+            --danger-3: 55 39 38; --contrast-danger-3: 255 255 255;
+            --danger-4: 64 41 38; --contrast-danger-4: 255 255 255;
+            --danger-5: 75 44 41; --contrast-danger-5: 255 255 255;
+            --danger-6: 84 45 41; --contrast-danger-6: 255 255 255;
+            --danger-7: 100 51 48; --contrast-danger-7: 255 255 255;
+            --danger-8: 117 58 54; --contrast-danger-8: 255 255 255;
+            --danger-9: 251 44 54; --contrast-danger-9: 255 255 255;
+            --danger-10: 255 52 59; --contrast-danger-10: 255 255 255;
+            --danger-11: 248 168 161; --contrast-danger-11: 29 29 29;
+            --danger-12: 255 249 247; --contrast-danger-12: 29 29 29;
+            --danger-original: 251 44 54; --contrast-danger-original: 255 255 255;
+            --success-1: 29 29 29; --contrast-success-1: 255 255 255;
+            --success-2: 31 36 32; --contrast-success-2: 255 255 255;
+            --success-3: 37 47 38; --contrast-success-3: 255 255 255;
+            --success-4: 37 52 39; --contrast-success-4: 255 255 255;
+            --success-5: 38 60 41; --contrast-success-5: 255 255 255;
+            --success-6: 38 65 41; --contrast-success-6: 255 255 255;
+            --success-7: 42 77 48; --contrast-success-7: 255 255 255;
+            --success-8: 47 89 54; --contrast-success-8: 255 255 255;
+            --success-9: 0 201 80; --contrast-success-9: 29 29 29;
+            --success-10: 0 176 54; --contrast-success-10: 255 255 255;
+            --success-11: 155 208 161; --contrast-success-11: 29 29 29;
+            --success-12: 246 255 247; --contrast-success-12: 29 29 29;
+            --success-original: 0 201 80; --contrast-success-original: 29 29 29;
+        }
+
+        .main-category-header {
+            background-color: rgb(49, 70, 120) !important;
+            color: #ffffff !important; /* Force text color to white */
+        }
+    </style>
+</head>
+<body style="background-color: var(--bgColor-default);" class="[html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-subtle bg-tint-base theme-muted:bg-tint-subtle theme-gradient:bg-gradient-primary theme-gradient-tint:bg-gradient-tint contrast-more:bg-tint-base text-sm backdrop-blur-lg">
+    <header id="site-header" style="background-color: rgb(49, 70, 120) !important; color: #ffffff !important;" class="flex flex-col h-[64px] sticky top-0 z-30 w-full flex-none shadow-[0px_1px_0px] shadow-tint-12/2 bg-tint-base/9 theme-muted:bg-tint-subtle/9 [html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-subtle/9 theme-gradient:bg-gradient-primary theme-gradient-tint:bg-gradient-tint contrast-more:bg-tint-base text-sm backdrop-blur-lg">
+        <div class="theme-bold:bg-header-background theme-bold:shadow-[0px_1px_0px] theme-bold:shadow-tint-12/2">
+            <div class="scroll-nojump">
+                <div class="transition-all duration-300 lg:chat-open:pr-80 xl:chat-open:pr-96">
+                    <div class="gap-4 lg:gap-6 flex items-center justify-between w-full py-3 min-h-16 sm:h-16 px-4 sm:px-6 md:px-8 max-w-screen-2xl mx-auto">
+                        <div class="flex max-w-full lg:basis-72 min-w-0 shrink items-center justify-start gap-2 lg:gap-4">
+                            <a class="group/headerlogo min-w-0 shrink flex items-center" href="/">
+                                <div class="text-pretty line-clamp-2 tracking-tight max-w-[18ch] lg:max-w-[24ch] font-semibold ms-3 text-base/tight lg:text-lg/tight text-tint-strong theme-bold:text-header-link">
+                                    Your Bot's Docs
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="scroll-nojump">
+        <div class="motion-safe:transition-all motion-safe:duration-300 lg:chat-open:mr-80 xl:chat-open:mr-96">
+            <div class="flex flex-col lg:flex-row px-4 sm:px-6 md:px-8 max-w-screen-2xl mx-auto site-full-width:max-w-full">
+                <aside data-testid="table-of-contents" id="table-of-contents" class="group text-sm grow-0 shrink-0 basis-full lg:basis-72 page-no-toc:lg:basis-56 relative z-[1] lg:sticky lg:mr-12 lg:top-0 lg:h-screen announcement:lg:h-[calc(100vh-4.25rem)] site-header:lg:top-16 site-header:lg:h-[calc(100vh-4rem)] announcement:site-header:lg:h-[calc(100vh-4rem-4.25rem)] site-header-sections:lg:top-[6.75rem] site-header-sections:lg:h-[calc(100vh-6.75rem)] announcement:site-header-sections:lg:h-[calc(100vh-6.75rem-4.25rem)] [html[style*=&quot;--toc-top-offset&quot;]_&amp;]:lg:!top-[var(--toc-top-offset)] [html[style*=&quot;--toc-height&quot;]_&amp;]:lg:!h-[var(--toc-height)] pt-6 pb-4 sidebar-filled:lg:pr-6 page-no-toc:lg:pr-0 navigation-open:!flex lg:flex page-no-toc:lg:hidden page-no-toc:xl:flex site-header-none:page-no-toc:lg:flex flex-col gap-4 navigation-open:border-b border-tint-subtle">
+                    <div class="lg:-ms-5 relative flex flex-grow flex-col overflow-hidden border-tint-subtle sidebar-filled:bg-tint-subtle theme-muted:bg-tint-subtle [html.sidebar-filled.theme-muted_&amp;]:bg-tint-base [html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-base [html.sidebar-filled.theme-gradient_&amp;]:border page-no-toc:!bg-transparent page-no-toc:!border-none sidebar-filled:rounded-xl straight-corners:rounded-none [html.sidebar-filled.circular-corners_&amp;]:page-has-toc:rounded-3xl">
+                        <div class="px-5 *:my-4"></div>
+                        <div data-testid="toc-scroll-container" class="flex flex-grow flex-col p-2 lg:pb-20 lg:gutter-stable overflow-y-auto [&amp;::-webkit-scrollbar]:bg-transparent [&amp;::-webkit-scrollbar-thumb]:bg-transparent group-hover:[&amp;::-webkit-scrollbar]:bg-tint-subtle group-hover:[&amp;::-webkit-scrollbar-thumb]:bg-tint-7 group-hover:[&amp;::-webkit-scrollbar-thumb:hover]:bg-tint-8">
+                            <ul class="flex flex-col gap-y-0.5 page-no-toc:hidden border-tint-subtle sidebar-list-line:border-l">
+                                <li class="group/page-group-item flex flex-col">
+                                    <div class="main-category-header -top-5 group-first/page-group-item:-mt-5 sticky z-[1] flex items-center gap-3 px-3 pt-6 font-semibold text-xs uppercase tracking-wide pb-3 -mb-1.5 [mask-image:linear-gradient(rgba(0,0,0,1)_70%,rgba(0,0,0,0))] bg-tint-base sidebar-filled:bg-tint-subtle theme-muted:bg-tint-subtle [html.sidebar-filled.theme-muted_&amp;]:bg-tint-base [html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-base [html.sidebar-default.theme-gradient_&amp;]:bg-gradient-primary [html.sidebar-default.theme-gradient.tint_&amp;]:bg-gradient-tint">
+                                        Main Category
+                                    </div>
+                                    <ul class="flex flex-col gap-y-0.5">
+                                        <li class="flex flex-col">
+                                            <a class="group/toclink toclink relative transition-colors flex flex-row justify-between circular-corners:rounded-2xl rounded-md straight-corners:rounded-none p-1.5 pl-3 text-balance font-normal text-sm text-tint-strong/7 hover:bg-tint-hover hover:text-tint-strong contrast-more:text-tint-strong hover:contrast-more:text-tint-strong hover:contrast-more:ring-1 hover:contrast-more:ring-tint-12 before:contents[] before:-left-px before:absolute before:inset-y-0 sidebar-list-line:rounded-l-none sidebar-list-line:before:w-px sidebar-list-default:[&amp;+div_a]:rounded-l-none [&amp;+div_a]:pl-5 sidebar-list-default:[&amp;+div_a]:before:w-px" href="#">
+                                                <span class="flex items-center gap-3">
+                                                    Placeholder Link 1
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="flex flex-col">
+                                            <a class="group/toclink toclink relative transition-colors flex flex-row justify-between circular-corners:rounded-2xl rounded-md straight-corners:rounded-none p-1.5 pl-3 text-balance font-normal text-sm text-tint-strong/7 hover:bg-tint-hover hover:text-tint-strong contrast-more:text-tint-strong hover:contrast-more:text-tint-strong hover:contrast-more:ring-1 hover:contrast-more:ring-tint-12 before:contents[] before:-left-px before:absolute before:inset-y-0 sidebar-list-line:rounded-l-none sidebar-list-line:before:w-px sidebar-list-default:[&amp;+div_a]:rounded-l-none [&amp;+div_a]:pl-5 sidebar-list-default:[&amp;+div_a]:before:w-px" href="#">
+                                                <span class="flex items-center gap-3">
+                                                    Placeholder Link 2
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="flex flex-col">
+                                            <a class="group/toclink toclink relative transition-colors flex flex-row justify-between circular-corners:rounded-2xl rounded-md straight-corners:rounded-none p-1.5 pl-3 text-balance font-normal text-sm text-tint-strong/7 hover:bg-tint-hover hover:text-tint-strong contrast-more:text-tint-strong hover:contrast-more:text-tint-strong hover:contrast-more:ring-1 hover:contrast-more:ring-tint-12 before:contents[] before:-left-px before:absolute before:inset-y-0 sidebar-list-line:rounded-l-none sidebar-list-line:before:w-px sidebar-list-default:[&amp;+div_a]:rounded-l-none [&amp;+div_a]:pl-5 sidebar-list-default:[&amp;+div_a]:before:w-px" href="#">
+                                                <span class="flex items-center gap-3">
+                                                    Placeholder Link 3
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+				<main class="relative min-w-0 flex-1 mx-auto max-w-screen-2xl py-8 break-anywhere page-default-width site-default-width page-has-toc">
+					<header class="max-w-3xl page-full-width:max-w-screen-2xl mx-auto mb-6 space-y-3 page-api-block:ml-0 page-api-block:max-w-full">
+						<h1 class="text-4xl font-bold flex items-center gap-4 grow text-pretty clear-right xs:clear-none">
+							Command Guide
+						</h1>
+						<p class="text-lg text-tint clear-both">
+							Here you will find a comprehensive list of all commands for My Bot.
+							Learn how to use each command, its arguments, and examples.
+						</p>
+						<h2>General Commands</h2>
+						<ul>
+							<li><strong>/help</strong> - Shows a list of all commands.</li>
+							<li><strong>/ping</strong> - Checks the bot's latency.</li>
+							<li><strong>/info</strong> - Displays bot information.</li>
+						</ul>
+
+						<h2>Moderation Commands</h2>
+						<ul>
+							<li><strong>/kick [user] [reason]</strong> - Kicks a user from the server.</li>
+							<li><strong>/ban [user] [reason]</strong> - Bans a user from the server.</li>
+							<li><strong>/mute [user] [duration]</strong> - Mutes a user for a specified time.</li>
+						</ul>
+
+						</header>
+				</main>
+                    </header>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
