@@ -1,0 +1,109 @@
+Okay, I can absolutely help you with that! Having just an index.html is a great start. To make your website look a bit nicer and be more organized, we'll add a CSS file for styling and a simple README for your GitHub repository.
+
+Here are the files you'll need, along with their content.
+
+1. index.html (Your Main Page)
+This is the central HTML file that browsers will load. It includes the structure for your documentation, FAQs, and bot invite.
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Discord Bot - Official Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Awesome Discord Bot</h1>
+            <p>Your go-to bot for all things awesome!</p>
+            <a href="#invite" class="button primary-button">Add to Discord</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="hero-section">
+            <div class="container">
+                <h2>About the Bot</h2>
+                <p>My Awesome Discord Bot is designed to enhance your server experience with powerful and fun features. From moderation tools to entertaining commands, we've got you covered!</p>
+                <p>We believe in creating a bot that is easy to use, highly customizable, and constantly evolving based on user feedback. Our goal is to make your Discord server a better place for everyone.</p>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>🤖 Moderation</h3>
+                        <p>Keep your server clean and safe with robust moderation commands.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>🎮 Fun Commands</h3>
+                        <p>Engage your community with a variety of interactive and entertaining commands.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>🎵 Music (if applicable)</h3>
+                        <p>Stream your favorite tunes directly into your voice channels.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>⚙️ Customization</h3>
+                        <p>Tailor bot settings to perfectly fit your server's unique needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Q: How do I add My Awesome Discord Bot to my server?</h3>
+                    <p>A: It's simple! Just click the "Add to Discord" button at the top or bottom of this page, select your server, and authorize the bot. Make sure you have "Manage Server" permissions on your desired server.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q: What are the main commands?</h3>
+                    <p>A: Our bot uses slash commands (e.g., `/help`, `/mod kick`, `/play`). You can type `/help` in any channel the bot can see to get a full list of commands and their usage.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q: Is the bot always online?</h3>
+                    <p>A: Yes! We strive for 24/7 uptime. In case of any maintenance or unexpected downtime, we will announce it on our <a href="YOUR_SUPPORT_SERVER_INVITE_LINK_HERE" target="_blank">support server</a>.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Q: How can I get support or report a bug?</h3>
+                    <p>A: Join our <a href="YOUR_SUPPORT_SERVER_INVITE_LINK_HERE" target="_blank">official support server</a>! Our team and community members are there to help you with any questions or issues you might encounter.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="invite" class="invite-section">
+            <div class="container">
+                <h2>Ready to Enhance Your Server?</h2>
+                <p>Add My Awesome Discord Bot to your server today and discover a new level of interaction and management!</p>
+                <a href="YOUR_DISCORD_BOT_INVITE_LINK_HERE" target="_blank" class="button primary-button large-button">Invite My Awesome Discord Bot</a>
+                <p class="invite-note">
+                    *To get your bot invite link:<br>
+                    1. Go to Discord Developer Portal: <a href="https://discord.com/developers/applications" target="_blank">discord.com/developers/applications</a><br>
+                    2. Select your application.<br>
+                    3. Go to "OAuth2" -> "URL Generator".<br>
+                    4. Select "bot" scope, and any permissions your bot needs.<br>
+                    5. Copy the generated URL and paste it above!
+                </p>
+                <p>Need help or want to suggest a feature? Join our official support server!</p>
+                <a href="YOUR_SUPPORT_SERVER_INVITE_LINK_HERE" target="_blank" class="button secondary-button">Join Support Server</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Awesome Discord Bot. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
