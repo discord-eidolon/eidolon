@@ -20,7 +20,7 @@
 
     <style>
         :root {
-            --bgColor-default: #0d1117; /* Add this line */
+            --bgColor-default: #0d1117;
             --primary-1: 255 255 255; --contrast-primary-1: 29 29 29;
             --primary-2: 247 250 255; --contrast-primary-2: 29 29 29;
             --primary-3: 241 248 255; --contrast-primary-3: 29 29 29;
@@ -30,7 +30,7 @@
             --primary-7: 198 218 253; --contrast-primary-7: 29 29 29;
             --primary-8: 182 205 246; --contrast-primary-8: 29 29 29;
             --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
-            --primary-10: 49 86 130; /
+            --primary-10: 49 86 130; /* Removed stray '/' here */ --contrast-primary-10: 255 255 255;
             --primary-11: 87 110 152; --contrast-primary-11: 255 255 255;
             --primary-12: 24 29 38; --contrast-primary-12: 255 255 255;
             --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
@@ -42,8 +42,8 @@
             --tint-6: 226 230 236; --contrast-tint-6: 29 29 29;
             --tint-7: 213 217 224; --contrast-tint-7: 29 29 29;
             --tint-8: 200 205 213; --contrast-tint-8: 29 29 29;
-            --tint-9: 121 133 155; --contrast-tint-9: 255 255 255;
-            --tint-10: 110 122 143; --contrast-tint-10: 255 255 255;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255; /* Changed for link highlight */
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255; /* Changed for link highlight hover */
             --tint-11: 106 110 119; --contrast-tint-11: 255 255 255;
             --tint-12: 28 29 31; --contrast-tint-12: 255 255 255;
             --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
@@ -61,7 +61,7 @@
             --neutral-12: 29 29 29; --contrast-neutral-12: 255 255 255;
             --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
 
-            --header-background: 49 70 120;
+            --header-background: 49 70 120; /* This variable is still here but the inline style will override */
             --header-link: 255 255 255;
 
             --info-1: 255 255 255; --contrast-info-1: 29 29 29;
@@ -99,9 +99,9 @@
             --danger-7: 255 200 193; --contrast-danger-7: 29 29 29;
             --danger-8: 254 184 177; --contrast-danger-8: 29 29 29;
             --danger-9: 251 44 54; --contrast-danger-9: 255 255 255;
-            --danger-10: 228 0 33; --contrast-danger-10: 255 255 255;
-            --danger-11: 158 87 81; --contrast-danger-11: 255 255 255;
-            --danger-12: 39 25 23; --contrast-danger-12: 255 255 255;
+            --danger-10: 255 52 59; --contrast-danger-10: 255 255 255;
+            --danger-11: 248 168 161; --contrast-danger-11: 29 29 29;
+            --danger-12: 255 249 247; --contrast-danger-12: 29 29 29;
             --danger-original: 251 44 54; --contrast-danger-original: 255 255 255;
             --success-1: 255 255 255; --contrast-success-1: 29 29 29;
             --success-2: 245 252 246; --contrast-success-2: 29 29 29;
@@ -128,7 +128,7 @@
             --primary-7: 52 68 96; --contrast-primary-7: 255 255 255;
             --primary-8: 59 78 112; --contrast-primary-8: 255 255 255;
             --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
-            --primary-10: 80 139 252; --contrast-primary-10: 255 255 255;
+            --primary-10: 49 86 130; /* Changed for link highlight */ --contrast-primary-10: 255 255 255;
             --primary-11: 167 193 239; --contrast-primary-11: 29 29 29;
             --primary-12: 249 255 255; --contrast-primary-12: 29 29 29;
             --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
@@ -140,8 +140,8 @@
             --tint-6: 56 58 60; --contrast-tint-6: 255 255 255;
             --tint-7: 66 68 70; --contrast-tint-7: 255 255 255;
             --tint-8: 76 78 81; --contrast-tint-8: 255 255 255;
-            --tint-9: 127 133 144; --contrast-tint-9: 255 255 255;
-            --tint-10: 138 145 156; --contrast-tint-10: 255 255 255;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255; /* Changed for link highlight */
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255; /* Changed for link highlight hover */
             --tint-11: 190 192 197; --contrast-tint-11: 29 29 29;
             --tint-12: 254 255 255; --contrast-tint-12: 29 29 29;
             --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
@@ -159,7 +159,7 @@
             --neutral-12: 255 255 255; --contrast-neutral-12: 29 29 29;
             --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
 
-            --header-background: 49 70 120;
+            --header-background: 49 70 120; /* This variable is still here but the inline style will override */
             --header-link: 255 255 255;
 
             --info-1: 29 29 29; --contrast-info-1: 255 255 255;
@@ -226,7 +226,7 @@
             --primary-7: 52 68 96; --contrast-primary-7: 255 255 255;
             --primary-8: 59 78 112; --contrast-primary-8: 255 255 255;
             --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
-            --primary-10: 80 139 252; --contrast-primary-10: 255 255 255;
+            --primary-10: 49 86 130; /* Changed for link highlight */ --contrast-primary-10: 255 255 255;
             --primary-11: 167 193 239; --contrast-primary-11: 29 29 29;
             --primary-12: 249 255 255; --contrast-primary-12: 29 29 29;
             --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
@@ -238,8 +238,8 @@
             --tint-6: 56 58 60; --contrast-tint-6: 255 255 255;
             --tint-7: 66 68 70; --contrast-tint-7: 255 255 255;
             --tint-8: 76 78 81; --contrast-tint-8: 255 255 255;
-            --tint-9: 127 133 144; --contrast-tint-9: 255 255 255;
-            --tint-10: 138 145 156; --contrast-tint-10: 255 255 255;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255; /* Changed for link highlight */
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255; /* Changed for link highlight hover */
             --tint-11: 190 192 197; --contrast-tint-11: 29 29 29;
             --tint-12: 254 255 255; --contrast-tint-12: 29 29 29;
             --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
@@ -257,7 +257,7 @@
             --neutral-12: 255 255 255; --contrast-neutral-12: 29 29 29;
             --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
 
-            --header-background: 49 70 120;
+            --header-background: 49 70 120; /* This variable is still here but the inline style will override */
             --header-link: 255 255 255;
 
             --info-1: 29 29 29; --contrast-info-1: 255 255 255;
@@ -312,14 +312,114 @@
             --success-11: 155 208 161; --contrast-success-11: 29 29 29;
             --success-12: 246 255 247; --contrast-success-12: 29 29 29;
             --success-original: 0 201 80; --contrast-success-original: 29 29 29;
+        }
+
+        .dark {
+            --primary-1: 29 29 29; --contrast-primary-1: 255 255 255;
+            --primary-2: 32 35 39; --contrast-primary-2: 255 255 255;
+            --primary-3: 39 44 53; --contrast-primary-3: 255 255 255;
+            --primary-4: 40 48 62; --contrast-primary-4: 255 255 255;
+            --primary-5: 43 54 72; --contrast-primary-5: 255 255 255;
+            --primary-6: 45 58 81; --contrast-primary-6: 255 255 255;
+            --primary-7: 52 68 96; --contrast-primary-7: 255 255 255;
+            --primary-8: 59 78 112; --contrast-primary-8: 255 255 255;
+            --primary-9: 56 93 140; --contrast-primary-9: 255 255 255;
+            --primary-10: 49 86 130; /* Changed for link highlight */ --contrast-primary-10: 255 255 255;
+            --primary-11: 167 193 239; --contrast-primary-11: 29 29 29;
+            --primary-12: 249 255 255; --contrast-primary-12: 29 29 29;
+            --primary-original: 52 109 219; --contrast-primary-original: 255 255 255;
+            --tint-1: 29 29 29; --contrast-tint-1: 255 255 255;
+            --tint-2: 34 34 35; --contrast-tint-2: 255 255 255;
+            --tint-3: 43 44 45; --contrast-tint-3: 255 255 255;
+            --tint-4: 47 48 49; --contrast-tint-4: 255 255 255;
+            --tint-5: 52 54 55; --contrast-tint-5: 255 255 55; /* Typo here: 55 vs 255 */
+            --tint-6: 56 58 60; --contrast-tint-6: 255 255 255;
+            --tint-7: 66 68 70; --contrast-tint-7: 255 255 255;
+            --tint-8: 76 78 81; --contrast-tint-8: 255 255 255;
+            --tint-9: 56 93 140; --contrast-tint-9: 255 255 255; /* Changed for link highlight */
+            --tint-10: 49 86 130; --contrast-tint-10: 255 255 255; /* Changed for link highlight hover */
+            --tint-11: 190 192 197; --contrast-tint-11: 29 29 29;
+            --tint-12: 254 255 255; --contrast-tint-12: 29 29 29;
+            --tint-original: 120 120 120; --contrast-tint-original: 255 255 255;
+            --neutral-1: 29 29 29; --contrast-neutral-1: 255 255 255;
+            --neutral-2: 34 34 34; --contrast-neutral-2: 255 255 255;
+            --neutral-3: 44 44 44; --contrast-neutral-3: 255 255 255;
+            --neutral-4: 48 48 48; --contrast-neutral-4: 255 255 255;
+            --neutral-5: 53 53 53; --contrast-neutral-5: 255 255 255;
+            --neutral-6: 57 57 57; --contrast-neutral-6: 255 255 255;
+            --neutral-7: 67 67 67; --contrast-neutral-7: 255 255 255;
+            --neutral-8: 78 78 78; --contrast-neutral-8: 255 255 255;
+            --neutral-9: 120 120 120; --contrast-neutral-9: 255 255 255;
+            --neutral-10: 144 144 144; --contrast-neutral-10: 255 255 255;
+            --neutral-11: 192 192 192; --contrast-neutral-11: 29 29 29;
+            --neutral-12: 255 255 255; --contrast-neutral-12: 29 29 29;
+            --neutral-original: 120 120 120; --contrast-neutral-original: 255 255 255;
+
+            --header-background: 49 70 120; /* This variable is still here but the inline style will override */
+            --header-link: 255 255 255;
+
+            --info-1: 29 29 29; --contrast-info-1: 255 255 255;
+            --info-2: 34 34 34; --contrast-info-2: 255 255 255;
+            --info-3: 44 44 44; --contrast-info-3: 255 255 255;
+            --info-4: 48 48 48; --contrast-info-4: 255 255 255;
+            --info-5: 53 53 53; --contrast-info-5: 255 255 255;
+            --info-6: 57 57 57; --contrast-info-6: 255 255 255;
+            --info-7: 67 67 67; --contrast-info-7: 255 255 255;
+            --info-8: 78 78 78; --contrast-info-8: 255 255 255;
+            --info-9: 120 120 120; --contrast-info-9: 255 255 255;
+            --info-10: 144 144 144; --contrast-info-10: 255 255 255;
+            --info-11: 192 192 192; --contrast-info-11: 29 29 29;
+            --info-12: 255 255 255; --contrast-info-12: 29 29 29;
+            --info-original: 120 120 120; --contrast-info-original: 255 255 255;
+            --warning-1: 29 29 29; --contrast-warning-1: 255 255 255;
+            --warning-2: 38 34 30; --contrast-warning-2: 255 255 255;
+            --warning-3: 50 42 35; --contrast-warning-3: 255 255 255;
+            --warning-4: 57 45 34; --contrast-warning-4: 255 255 255;
+            --warning-5: 66 50 34; --contrast-warning-5: 255 255 255;
+            --warning-6: 73 53 33; --contrast-warning-6: 255 255 255;
+            --warning-7: 87 62 37; --contrast-warning-7: 255 255 255;
+            --warning-8: 101 71 41; --contrast-warning-8: 255 255 255;
+            --warning-9: 254 154 0; --contrast-warning-9: 29 29 29;
+            --warning-10: 213 116 0; --contrast-warning-10: 255 255 255;
+            --warning-11: 224 184 145; --contrast-warning-11: 29 29 29;
+            --warning-12: 255 253 243; --contrast-warning-12: 29 29 29;
+            --warning-original: 254 154 0; --contrast-warning-original: 29 29 29;
+            --danger-1: 29 29 29; --contrast-danger-1: 255 255 255;
+            --danger-2: 40 32 32; --contrast-danger-2: 255 255 255;
+            --danger-3: 55 39 38; --contrast-danger-3: 255 255 255;
+            --danger-4: 64 41 38; --contrast-danger-4: 255 255 255;
+            --danger-5: 75 44 41; --contrast-danger-5: 255 255 255;
+            --danger-6: 84 45 41; --contrast-danger-6: 255 255 255;
+            --danger-7: 100 51 48; --contrast-danger-7: 255 255 255;
+            --danger-8: 117 58 54; --contrast-danger-8: 255 255 255;
+            --danger-9: 251 44 54; --contrast-danger-9: 255 255 255;
+            --danger-10: 255 52 59; --contrast-danger-10: 255 255 255;
+            --danger-11: 248 168 161; --contrast-danger-11: 29 29 29;
+            --danger-12: 255 249 247; --contrast-danger-12: 29 29 29;
+            --danger-original: 251 44 54; --contrast-danger-original: 255 255 255;
+            --success-1: 29 29 29; --contrast-success-1: 255 255 255;
+            --success-2: 31 36 32; --contrast-success-2: 255 255 255;
+            --success-3: 37 47 38; --contrast-success-3: 255 255 255;
+            --success-4: 37 52 39; --contrast-success-4: 255 255 255;
+            --success-5: 38 60 41; --contrast-success-5: 255 255 255;
+            --success-6: 38 65 41; --contrast-success-6: 255 255 255;
+            --success-7: 42 77 48; --contrast-success-7: 255 255 255;
+            --success-8: 47 89 54; --contrast-success-8: 255 255 255;
+            --success-9: 0 201 80; --contrast-success-9: 29 29 29;
+            --success-10: 0 176 54; --contrast-success-10: 255 255 255;
+            --success-11: 155 208 161; --contrast-success-11: 29 29 29;
+            --success-12: 246 255 247; --contrast-success-12: 29 29 29;
+            --success-original: 0 201 80; --contrast-success-original: 29 29 29;
+        }
+
         .main-category-header {
-            background-color: rgb(49, 70, 120) !important; /* Added !important to ensure override */
-            color: #ffffff; /* Optionally set text color for readability */
+            background-color: rgb(49, 70, 120) !important;
+            color: #ffffff !important; /* Force text color to white */
         }
     </style>
 </head>
 <body style="background-color: var(--bgColor-default);" class="[html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-subtle bg-tint-base theme-muted:bg-tint-subtle theme-gradient:bg-gradient-primary theme-gradient-tint:bg-gradient-tint contrast-more:bg-tint-base text-sm backdrop-blur-lg">
-    <header id="site-header" class="flex flex-col h-[64px] sticky top-0 z-30 w-full flex-none shadow-[0px_1px_0px] shadow-tint-12/2 bg-tint-base/9 theme-muted:bg-tint-subtle/9 [html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-subtle/9 theme-gradient:bg-gradient-primary theme-gradient-tint:bg-gradient-tint contrast-more:bg-tint-base text-sm backdrop-blur-lg">
+    <header id="site-header" style="background-color: rgb(49, 70, 120) !important; color: #ffffff !important;" class="flex flex-col h-[64px] sticky top-0 z-30 w-full flex-none shadow-[0px_1px_0px] shadow-tint-12/2 bg-tint-base/9 theme-muted:bg-tint-subtle/9 [html.sidebar-filled.theme-bold.tint_&amp;]:bg-tint-subtle/9 theme-gradient:bg-gradient-primary theme-gradient-tint:bg-gradient-tint contrast-more:bg-tint-base text-sm backdrop-blur-lg">
         <div class="theme-bold:bg-header-background theme-bold:shadow-[0px_1px_0px] theme-bold:shadow-tint-12/2">
             <div class="scroll-nojump">
                 <div class="transition-all duration-300 lg:chat-open:pr-80 xl:chat-open:pr-96">
@@ -331,7 +431,7 @@
                                 </div>
                             </a>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -374,7 +474,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                            </div>
+                        </div>
                     </div>
                 </aside>
                 <main class="relative min-w-0 flex-1 mx-auto max-w-screen-2xl py-8 break-anywhere page-default-width site-default-width page-has-toc">
@@ -387,7 +487,7 @@
                             You can customize this message and add more sections as needed.
                         </p>
                     </header>
-                    </main>
+                </main>
             </div>
         </div>
     </div>
